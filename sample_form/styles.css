@@ -1,0 +1,166 @@
+
+body {
+
+/*  background-image: url('file:///C:/Users/saki0/Downloads/fly-d-ortYAfuDZU8-unsplash.jpg');*/
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6-ZM7T2QVA3AJSEBCPrSxjWHky2MrVN087Q&usqp=CAU');
+
+  background-size: 100%;
+  padding-bottom: 0;
+}
+
+form {
+  margin-left: 8%;
+  margin-right: 0;
+}
+
+span {
+  color: red;
+}
+
+a{
+  color:#EAFFD0;
+}
+.container-fluid {
+  background-color:#007580;
+  width: 60%;
+  padding: 0;
+  border-radius: 30px;
+}
+
+.content {
+  background-color: #007580;
+  width: 70%;
+  margin-bottom: 10%;
+  position: relative;
+  left: 10%;
+  margin-left: 50px;
+  margin-top: 0;
+  font-family: 'Kaisei Decol', serif;
+  font-size: 20px;
+  padding-bottom: 10%;
+
+}
+
+.heading {
+  background-color: #CDF0EA;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 0;
+  text-align: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  
+}
+
+.main-heading {
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #056674;
+}
+
+.sub-heading {
+  font-size: 45px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bolder;
+  text-align: center;
+  color: black;
+}
+
+.form-control {
+  width: 300px;
+}
+
+.form-label {
+  text-align: left;
+  width: 800px;
+}
+
+.form-group {
+  text-align: center;
+  background-color: #CDF0EA;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  padding: 5% 70% 5% 5%;
+  margin-right: 500px;
+  border-radius: 30px;
+  position: relative;
+  left: 10%;
+}
+
+.selection {
+  text-align: center;
+  background-color: #CDF0EA;
+  width: 70%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  padding: 5% 70% 5% 5%;
+  margin-right: 30px;
+  border-radius: 30px;
+  position: relative;
+  left: 10%;
+}
+
+.form-check {
+  margin-right: 0;
+  position: relative;
+}
+
+.form-check-label {
+  margin-left: 0;
+  position: relative;
+  right: 0;
+  text-align: left;
+}
+
+.form-check-input {
+  position: relative;
+  text-align: left;
+}
+
+.team-mem {
+  background-color: #CDF0EA;
+  padding-left: 10%;
+  padding-right: 70%;
+  margin-bottom: 10%;
+  margin-left: 60%;
+  text-align: center;
+  width: 650%;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.column {
+  width: 500px;
+  margin-right: 0;
+}
+
+.btn {
+  text-align: center;
+  position: relative;
+  left: 40%;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+
+
+.social-media {
+  text-align: center;
+  color: white;
+}
+
+.social-icon {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  left: 30%;
+}
+
+hr {
+  color: grey;
+  margin-bottom: 100px;
+}
