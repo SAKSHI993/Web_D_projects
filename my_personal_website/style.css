@@ -1,0 +1,151 @@
+
+body{
+  background-color: #E8FFFF;
+  text-align:center;
+  margin:0;
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
+.top{
+  position: relative;
+  font-family: 'Playfair Display', serif;
+  background-color: #E8FFFF;
+  color: grey;
+}
+h1{
+  padding-top: 50px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 500%; /*16px=100%=1em=1rem use percentage to dynamically scale . child class font will add up with parent class font size
+  which is not required.  1rem or percentage wont pose such a problem*/
+  margin: 0;
+  color:#66BFBF;
+  line-height: 2;
+}
+h2{
+  font-size: 250%;
+  color:#66BFBF;
+}
+h3{
+  font-size: 200%;
+  color:#11999E;
+}
+p{
+  font-size: 150%;
+  font-family: 'Asap', sans-serif;
+  color:grey;
+}
+
+a{
+  color:#11999E;
+  font-size: 150%;
+  font-family: 'Asap', sans-serif;
+  padding-bottom: 50px;
+  margin: 10px 30px;
+  text-decoration: none;
+  }
+a:hover{color: #EAF6F6;
+
+}
+  hr {
+  width: 15%;
+  border-width: 10px;
+  border-style: dotted none none none;
+  border-color: grey;
+}
+.bottom-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #66BFBF;
+  color: #E8FFFF;
+  font-size: 150%;
+  font-family: 'Asap', sans-serif;
+
+}
+.cloud1{
+  position:relative;
+  top:150px;
+  left:400px;
+
+}
+.cloud2{
+  position: relative;
+  top: 100px;
+  right: 450px;
+}
+.mountain{
+  padding-bottom: 50px;
+}
+.intro{
+  font-weight: normal;
+  color:#66BFBF;
+}
+.skill-row{
+  width: 75%;
+
+  margin:100px auto 100px auto;
+  text-align: left;
+
+
+}
+/*clear:left can be used in paragraphs to avoid any wrapping or undoing float */
+.dance{
+  width: 100px;
+  height:100px;
+  float: left;
+  margin-right: 50px;
+}
+.comp{
+  float: right;
+  /*dont use float for positioning*/
+  width: 100px;
+  height:100px;
+    margin-left: 50px;
+}
+.photo{
+
+  width: 150px;
+  height:250px;
+}
+.copywrite{
+  font-size: 20px;
+}
+.button {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -moz-linear-gradient(top, #66BFBF,#66BFBF);
+   background-image: -ms-linear-gradient(top, #66BFBF, #1E62D0);
+   background-image: -o-linear-gradient(top, #66BFBF, #1E62D0);
+   background-image: -webkit-gradient(to bottom,#66BFBF, #66BFBF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 30px;
+   font-weight: 200;
+   padding: 30px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #66BFBF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.button:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
