@@ -1,0 +1,547 @@
+body {
+  background-image: url("https://c1.wallpaperflare.com/preview/10/214/462/concert-performance-silhouette-band.jpg");
+  background-size: 90%;
+}
+a{
+  color:#FFE0F7;
+}
+a:hover{
+  color:grey;
+  text-decoration: none;
+}
+h3{
+  padding:0;
+  margin:0;
+}
+/* headings */
+.span{
+  text-align: center;
+}
+
+.neonText {
+  text-align: center;
+  font-size: 7rem;
+  font-weight: lighter;
+  margin-top: 5%;
+  margin-bottom: 2.5%;
+font-family: 'Redressed', cursive;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 15px #F21170,
+    0 0 82px #F21170,
+    0 0 92px #F21170,
+    0 0 102px #F21170,
+    0 0 151px #F21170;
+  /* #F21170; */
+}
+
+.coming-soon {
+  text-align: center;
+  color: #F21170;
+  font-size: 4rem;
+  font-family: 'Princess Sofia', cursive;
+}
+
+.img-fluid {
+  width: 3.5%;
+  position: fixed;
+  top: 10px;
+}
+
+/* left bar section */
+.left-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 100%;
+  background-color: #F21170;
+  opacity:0.6;
+
+}
+.left-about-us{
+  position: fixed;
+}
+
+.main-logo {
+  width: 3.5%;
+  position: fixed;
+  top: 10px;
+  border-radius: 100px;
+  z-index: 1;
+}
+
+.link-section a, .copyright-section p {
+  color: #FFE0F7;
+  font-size: 20px;
+  font-weight: 600;
+  writing-mode: vertical-rl;
+  text-decoration: none;
+}
+
+.link-section a {
+  position: fixed;
+  top: 50%;
+  left: 0.75%;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.link-section a:hover {
+
+    color: #FFE0F7;
+  text-decoration: none;
+}
+
+.copyright-section p {
+  position: fixed;
+  top: 75%;
+  left: 0.75%;
+  margin-left: 0;
+  padding: 0;
+  color: #FFE0F7;
+}
+
+/* right bar section */
+.right-bar {
+  width: 60px;
+  height: 100%;
+  background-color: #F21170;
+  position: fixed;
+  opacity:0.6;
+  top: 0;
+  right: 0;
+
+}
+
+
+/* .right-bar {
+  position: fixed;
+  right: 0;
+  color: #FFFC00;
+  font-size: 20px;
+  font-weight: 600;
+
+  text-decoration: none;
+  width: 50px;
+} */
+
+/* collapsing buttons */
+.menu-btn{
+  text-align: left;
+  padding-left: 5%;
+  margin-left: 0.2%;
+  font-size: 1.25rem;
+  font-weight: bolder;
+}
+.btn{
+  background-color: #FFFC00;
+  color: #F21170;
+}
+
+.btn-right:hover{
+  background-color: #fff;
+  color: #F21170;
+}
+.button:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* calender */
+.card-body{
+position: fixed;
+top: 30px;
+right: 0;
+background-color:  #F21170;
+
+}
+.card-body:hover{
+  color:#FFE0F7;;
+}
+.navbar-toggler{
+  background-color: #FFFC00;
+}
+/* notification section */
+.notify{
+  text-align: center;
+}
+.notify-me{
+
+  display: inline-block;
+  position: relative;
+  left: 30%;
+}
+.btn-notify-me{
+
+  background-color: #FFFC00;
+  height:39px;
+  color: #F21170;
+  position: relative;
+  left: 200%;
+  padding-top:5%;
+  width:300%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+
+}
+.btn-notify-me:hover{
+  background-color: #F21170;
+  color:  #FFFC00;
+}
+
+
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #F21170;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+  background-color: #FFE0F7;
+  height: 50%;
+  border-radius: 20%;
+  word-spacing: 2;
+
+}
+
+#clockdiv > div{
+	padding-left:10px;
+  padding-right: 10px;
+	border-radius: 3px;
+	background-color:  #FFE0F7;
+	display: inline-block;
+}
+/*
+#clockdiv div > span{
+	padding-left: 0;
+  padding-right: 0;
+	border-radius: 5px;
+	background-color: #FFE0F7;
+	/* display: inline-block; */
+/* } */
+
+/* calender */
+/* .smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+  width: 50%;
+  	background-color: #FFE0F7;
+    padding-right:5px;
+    text-align: center;
+    margin-left: 7px;
+
+} */
+.time{
+
+  text-align: center;
+  padding-right:5px;
+}
+
+.calender{
+  margin-right: 20px;
+
+  box-sizing: content-box;
+}
+
+.clock-container{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 40%;
+  height: 50px;
+  position: relative;
+  top:10px;
+  left: 30%;
+
+}
+
+/* social media icons */
+.icon1{
+  width: 5%;
+  height:5%;
+  position: fixed;
+  top: 200px;
+  color: #fff;
+  margin: 5px;
+  padding:10px;
+    writing-mode: vertical-rl;
+  size:3;
+}
+
+.icon4{
+  width: 5%;
+  height:5%;
+
+  color: #fff;
+  margin: 5px;
+  padding:10px;
+}
+.icon2{
+  width: 5%;
+  height:5%;
+
+  color: #fff;
+  margin: 5px;
+  padding:10px;
+}
+.icon3{
+  width: 5%;
+  height:5%;
+  color: #fff;
+  margin: 5px;
+  padding:10px;
+}
+.icon4:hover{
+  color: #FFE0F7;
+}
+.icon1:hover{
+  color: #FFE0F7;
+}
+.icon2:hover{
+  color: #FFE0F7;
+}
+.icon3:hover{
+  color: #FFE0F7;
+}
+.social-media-icon{
+  position: fixed;
+  top: 550px;
+
+}
+
+/* for phone and tablet */
+
+@media (min-width:1500px max-width:1028px){
+    body{
+      background-size: 130%;
+    }
+    .neonText{
+      margin-top: 10%;
+      margin-bottom: 5%;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+    .coming-soon {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 0;
+
+    }
+    .clock-container{
+      position: relative;
+      left:32%;
+
+    }
+    .card-deck{
+      position: relative;
+      right: 100px;
+      margin:3%;
+    }
+
+    .notify-column{
+      margin-top:5%;
+      margin-bottom:5%;
+      margin-left: 0;
+    }
+    .smalltext{
+      margin-left: 0;
+    }
+    .social-media-icon{
+      position: relative;
+      top: 60%;
+    }
+    .main-logo{
+      width: 8.5%;
+    }
+    .calender{
+      margin-bottom: 20%;
+    }
+  }
+
+
+#notification{
+  text-align: center;
+}
+.notify-column{
+  text-align: center;
+  margin: 0;
+  height: 0;
+}
+
+.button-name{
+  font-size: 1rem;
+  font-weight:bold;
+  padding: 0;
+  margin:0;
+
+}
+
+.btn-dark{
+  position: relative;
+  left: auto;
+  right: 95px;
+}
+
+.card-deck{
+
+  margin:10% 0 5% 40%;
+}
+.email-input-box{
+  background-color:transparent;
+  opacity: 1;
+  height: 50px;
+  font-size: 1rem;
+  padding-right: 0;
+  margin-right: 0;
+  width: 0%;
+}
+.email-id{
+  position: absolute;
+  top:50%;
+  left: 2%;
+  width: 300%;
+}
+
+@media only screen and ( max-width:980px ){
+  body{
+    background-size: 130%;
+
+  }
+  .body-content{
+    position: relative;
+    left: 0;
+    margin-top: 30%;
+    margin-bottom: 50%;
+    margin-left: 0;
+    }
+  .neonText{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 7.5rem;
+    text-align: center;
+    margin-left: 0;
+  }
+  .coming-soon {
+    text-align: center;
+    font-size: 8rem;
+    margin-bottom: 15%;
+    font-weight: bolder;
+
+  }
+
+  .left-bar{
+    width: 10%;
+  }
+  .right-bar{
+    width: 10%;
+
+  }
+  .link-section a {
+    font-size: 2rem;
+  }
+  .copyright-section p{
+    font-size:2rem;
+  }
+  .menu-btn{
+    height: 10%;
+    width: 100%;
+    font-size: 1.5rem;
+    letter-spacing: 2;
+    text-align: center;
+
+
+  }
+
+  .clockdiv{
+    font-size: 4rem;
+    background-color: #FFE0F7;
+  }
+
+  #clockdiv{
+    font-size: 4rem;
+    background-color: #FFE0F7;
+    height: 50%;
+    border-radius: 20%;
+  }
+  /* .clock-container{
+    position: relative;
+    left:32%;
+    margin-bottom: 15%;
+    height: 30%;
+    width: 30%;
+
+  }
+  .card-deck{
+    position: relative;
+    right: 100px;
+    top: 70%;
+    margin:3%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+  } */
+
+  .notify-column{
+  width: 200%;
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-left: 0;
+    margin-bottom: 15%;
+    /* position: relative;
+    left: 300%; */
+  }
+  .emial-id{
+    height:100%;
+  }
+  .form-control{
+    height:150%;
+    width:500%;
+    position: relative;
+    left:-85%;
+  }
+  .icon-1{
+    font-size: 100%;
+  }
+  h4{
+    font-size: 3rem;
+  }
+  .form-inline .form-control {
+    display: inline-grid;
+    width: 300%;
+    vertical-align: middle;
+    padding-left: 45%;
+    position: relative;
+    top:50%;
+    /* left:-430%; */
+    height: 300%;
+
+}
+.btn-notify-me{
+  position: relative;
+  top:70%;
+  left:-200%;
+  margin-top: 50%;
+}
+  /* .smalltext{
+    margin-left: 0;
+  } */
+  .social-media-icon{
+    position: relative;
+    top: 60%;
+  }
+  .main-logo{
+    width: 8.5%;
+  }
+  /* .calender{
+    margin-bottom: 20%;
+    padding:30%;
+    font-size: 4rem;
+    margin-right:30%;
+  } */
+
+}
