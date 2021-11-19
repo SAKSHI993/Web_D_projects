@@ -1,4 +1,4 @@
-allows you to signup for the newsletter. if done successfully show a success message else a failure message. at present, only runs on localhost:3000.
+allows you to signup for the newsletter. if done successfully show a success message else a failure message. u need to add the node modules into directory youself using cmd. at present, only runs on localhost:3000.
 to run the code,
 1. go to hyper
 2. cd to directory path
