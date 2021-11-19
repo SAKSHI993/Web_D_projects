@@ -1,8 +1,0 @@
-allows you to signup for a newsletter. If done succesfully, shows a success message else a failure message. Currently it can only be run on localhost:3000.
-for running thi code,
-1. go to hyper
-2. cd to file path
-3. run command: nodemon app.js
-4. go to "localhost:3000" on web.
-
-made using HTML,CSS, JS, node.js, Express,js
