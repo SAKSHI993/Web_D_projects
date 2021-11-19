@@ -1,0 +1,13 @@
+<%- include("partials/header")  -%>
+<!-- includes header file containg header of the html plate -->
+<h1>Compose</h1>
+<form class="" action="compose" method="post">
+<div class="form-group">
+      <label for="">Title</label>
+    <input class="form-control" type="text" placeholder="New blog" name="newBlog">
+    <label for="">Post</label>
+  <textarea class="form-control" rows="8" cols="80" name="blogText"></textarea>
+</div>
+<button type="submit" class="btn btn-primary">Publish</button>
+</form>
+<%- include("partials/footer")  -%>
